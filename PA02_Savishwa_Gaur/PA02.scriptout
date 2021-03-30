@@ -1,0 +1,26 @@
+Script started on Sun Mar 14 21:55:10 2021
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+[?1034hbash-3.2$ g++ -std= c++[K[K[K[Kc++17 filedis[K[K[Kcnt.cpp -o filecnt.exe
+bash-3.2$ g++ filedisp.cpp -o [K filedisp.exe
+bash-3.2$ ./filecnt /usr/share. /usr/sharee /usr/sharex /usr/sharee /usr/share
+The total number of directories in directory /usr/share is: 2713
+The total number of files in directory /usr/share is: 30601
+The total number of bytes occupied by all files in directory /usr/share is: 602633184
+bash-3.2$ ./filecnt.exe /usr/share | ./fileds[Kisp.exe -f
+The total number of files in directory /usr/share is: 30601
+bash-3.2$ ./filecnt.exe /usr/share | ./filedisp.exe -f[Kd
+The total number of directories in directory /usr/share is: 2713
+bash-3.2$ ./filecnt.exe /usr/share | ./filedisp.exe -d[Kb
+The total number of bytes occupied by all files in directory /usr/share is: 602633184
+bash-3.2$ ./filecnt.exe /usr/share | ./filedisp.exe -b[C[K[KinvalidOption
+Invalid option: invalidOption
+Nothing found in input string
+bash-3.2$ ./filecnt.exe /usr/share | ./filedisp.exe invalidOption[K[K[K[K[K[K[K[K[K[K[K[K[K-f[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@i[1@n[1@v[1@l[1@a[1@i[1@d[1@D[1@i[1@r[1P[1P[1P[1P[1P[1P[1P[1@a[1@l[1@i[1@d[1@D[1@i[1@r
+Nothing found in input string
+bash-3.2$ exit
+exit
+
+Script done on Sun Mar 14 21:56:54 2021
